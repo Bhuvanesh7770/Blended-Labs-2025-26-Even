@@ -1,4 +1,3 @@
-<img width="1624" height="1056" alt="Screenshot 2026-05-15 130641" src="https://github.com/user-attachments/assets/55c4697a-3c9f-4f9d-a2a7-d0121d4b22d1" /># Lab 3 – Introduction to Amazon Elastic Compute Cloud (EC2)
 
 ## Author
 
