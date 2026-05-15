@@ -4,7 +4,7 @@
 
 * **Name**: HARISH P K
 * **Register Number**: 212224040104
-* **Date of Submission**: 14-05-20206
+* **Date of Submission**: 14-05-2026
 
 ---
 
@@ -83,9 +83,8 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
+
 ## Workflow (Student Explanation)
-
-
 
 Step-1:
 I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
