@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: _________BHUVANESH.K_______________________
+* **Register Number**: ___212224230037__________________
+* **Date of Submission**: __20.05.26________________
 
 ---
 
@@ -83,9 +83,42 @@ Install and start a web server (Apache HTTPD) on the EC2 instance using user dat
 
 Create a simple HTML page and verify that it can be accessed from a web browser using the public IP address of the instance.---
 
+I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia
+(us-east-1) region.
+I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an
+Internet Gateway and NAT Gateway to manage internet connectivity.
+I added additional public and private subnets in a second Availability Zone and updated the route
+tables to ensure proper routing for both internet-facing and private traffic.
+I created a Security Group named Web Security Group and configured it to allow HTTP (port 80)
+access from anywhere to enable web traffic.
+I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP,
+attached the security group, and selected the required key pair.
+Task 6: Launch EC2 Instance
+Task 7: Configure Web Server
 ## Workflow (Student Explanation)
+Step-1:
+I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia
+(us-east-1) region.
+Step-2:
+I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an
+Internet Gateway and NAT Gateway to manage internet connectivity.
 
-(Write the steps you followed in your own words)
+Step-3:
+I added additional public and private subnets in a second Availability Zone and updated the route
+tables to ensure proper routing for both internet-facing and private traffic.
+
+Step-4:
+I created a Security Group named Web Security Group and configured it to allow HTTP (port 80)
+access from anywhere to enable web traffic.
+
+Step-5:
+I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP,
+attached the security group, and selected the required key pair.
+
+Step-6:
+I configured a user data script to automatically install Apache and deploy a web application, then
+verified the web server by accessing the instance’s public DNS in a browser.
+
 
 1. ---
 2. ---
@@ -99,19 +132,22 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="885" height="374" alt="image" src="https://github.com/user-attachments/assets/9c67e62f-611b-4457-b89d-56f243dec55b" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="881" height="370" alt="image" src="https://github.com/user-attachments/assets/85b4a4c9-84e9-49eb-83c3-2a2ebeda3153" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="646" height="183" alt="image" src="https://github.com/user-attachments/assets/257de02c-d1c6-4559-af17-03fe4686bb15" />
+
 
 ---
 
