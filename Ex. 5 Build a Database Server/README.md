@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: BHUVANESH K
+* **Register Number**: 212224230037
+* **Date of Submission**: 30-05-2026
 
 ---
 
@@ -82,21 +82,19 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
----
+1.First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL).
+2.A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability.
+3.A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password.
+4.The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database.
+5.The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+
+<img width="1919" height="1054" alt="Screenshot 2026-05-15 205807" src="https://github.com/user-attachments/assets/e809ab20-60ce-4d8e-933a-8c255eb9d91a" />
+
 
 ---
 
@@ -104,11 +102,14 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Insert Screenshot Here)
 
+<img width="1919" height="1057" alt="Screenshot 2026-05-15 211701" src="https://github.com/user-attachments/assets/67bc8e9d-0f73-4740-a80a-dd6e2f5ab715" />
+
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="1101" alt="Screenshot 2026-05-15 212351" src="https://github.com/user-attachments/assets/f3965d30-2e9f-4ed4-8055-bc59a3a5f09d" />
+
 
 ---
 
